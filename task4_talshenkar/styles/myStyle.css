@@ -1,0 +1,207 @@
+#container {
+    margin:0 auto;
+    width:960px;
+    direction:rtl;
+  
+}
+
+
+body {
+    background-image: url(../images/tal1.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 1200px;
+    background-color: beige;
+ 
+}
+
+
+#menu ul li{
+    display:inline-block;
+    float:right;
+    position:center;
+    height:650px;
+
+ 
+    
+}
+
+#menu ul li a{
+    display:block;
+    background-color:blueviolet;
+    color:white;
+    width:160px;
+    height:50px;
+    padding-top:10px;
+    text-decoration:none;
+    text-align:center;
+    margin:10px;
+    font-size:24pt;
+   
+   
+}
+
+
+#pic {
+    position: relative;
+    margin-top: 500px;
+    bottom: -350px;
+   
+}
+
+#one {
+    border: 3px solid black;
+    width: 350px;
+    height: 204px;
+    padding: 5px;
+    right: 100px;
+    bottom: 10px;
+    position: absolute;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+   
+}
+
+    #one:hover {
+    
+
+    }
+#two {
+    width: 350px;
+    height: 204px;
+    position: absolute;
+    right: 500px;
+    bottom: 10px;
+    border: 3px solid black;
+    padding: 5px;
+    margin-top: 200px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+
+#three {
+    width: 350px;
+    height: 204px;
+    position: absolute;
+    right: 100px;
+    bottom: 0x;
+    border: 3px solid black;
+    padding: 5px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#four {
+    width: 350px;
+    height: 204px;
+    position: absolute;
+    right: 500px;
+    bottom: -220px;
+    border: 3px solid black;
+    padding: 5px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+
+
+h1{
+    text-align:center;
+    font-size:40pt;
+    color:blueviolet;
+    background-color:white;
+    width:300px;
+    position:absolute;
+    height:100px;
+    margin-top:400px;
+    margin-right:400px;
+  
+}
+
+p{
+    font-size:24pt;
+    width:1000px;
+    height:2000px;
+    
+    position:absolute;
+    margin-top:550px;
+}
+
+#callme {
+    clear: both;
+    height: 50px;
+    position: center;
+    margin-right: 400px;
+    margin-bottom:10px;
+    font-size:30pt;
+
+}
+
+
+#list2 {
+    font-size: 30pt;
+    width: 1500px;
+    height: 2000px;
+
+    position: absolute;
+    margin-top: 550px;
+    list-style-type:circle;
+}
+
+
+#face {
+    margin-right: 450px;
+    height: 100px;
+    width: 100px;
+   
+}
+
+#mail {
+    margin-right: 450px;
+    height:100px;
+    width:100px;
+}
+
+#menu a:hover{
+    background-color:aqua;
+    color:black;
+}
+
+#two:hover {
+    -moz-transform: scale(3) translateX(-60px) translateY(-60px);
+    -webkit-transform: scale(3) translateX(-60px) translateY(-60px);
+    -o-transform: scale(3) translateX(-60px) translateY(-60px);
+    -ms-transform: scale(3) translateX(-60px) translateY(-60px);
+    transform: scale(3) translateX(-60px) translateY(-60px);
+}
+
+#three:hover {
+    -moz-transform: scale(3) translateX(80px) translateY(-60px);
+    -webkit-transform: scale(3) translateX(80px) translateY(-60px);
+    -o-transform: scale(3) translateX(80px) translateY(-60px);
+    -ms-transform: scale(3) translateX(80px) translateY(-60px);
+    transform: scale(3) translateX(80px) translateY(-60px);
+}
+
+#four:hover {
+    -moz-transform: scale(3) translateX(-60px) translateY(-60px);
+    -webkit-transform: scale(3) translateX(-60px) translateY(-60px);
+    -o-transform: scale(3) translateX(-60px) translateY(-60px);
+    -ms-transform: scale(3) translateX(-60px) translateY(-60px);
+    transform: scale(3) translateX(-60px) translateY(-60px);
+}
+
+#one:hover {
+    -moz-transform: scale(3) translateX(80px) translateY(-60px);
+    -webkit-transform: scale(3) translateX(80px) translateY(-60px);
+    -o-transform: scale(3) translateX(80px) translateY(-60px);
+    -ms-transform: scale(3) translateX(80px) translateY(-60px);
+    transform: scale(3) translateX(80px) translateY(-60px);
+}
+
+#face:hover{
+    background-color:aqua;
+}
+
+
+#mail:hover {
+    background-color: aqua;
+}
